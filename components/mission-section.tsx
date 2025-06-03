@@ -94,7 +94,7 @@ export function MissionSection() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/wanderlei-silva.jpg"
+                src="/images/wanderlei-silva.webp"
                 alt="Wanderlei Silva - Embaixador Pesados Web"
                 width={500}
                 height={600}

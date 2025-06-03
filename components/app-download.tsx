@@ -52,7 +52,7 @@ export function AppDownload() {
                 className="bg-black hover:bg-gray-800 text-white rounded-xl px-6 py-4 flex items-center"
               >
                 <Image
-                  src="/images/app-store.png"
+                  src="/images/apple.png"
                   alt="Download na App Store"
                   width={120}
                   height={40}
@@ -64,7 +64,7 @@ export function AppDownload() {
                 className="bg-green-500 hover:bg-green-400 text-white rounded-xl px-6 py-4 flex items-center"
               >
                 <Image
-                  src="/images/google-play.png"
+                  src="/images/playstore.svg"
                   alt="Baixar no Google Play"
                   width={120}
                   height={40}
@@ -95,7 +95,7 @@ export function AppDownload() {
             <div className="relative mx-auto max-w-sm">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 shadow-2xl">
                 <Image
-                  src="/images/logo-circular.webp"
+                  src="/images/logo-escrito.png"
                   alt="Pesados Web App Interface"
                   width={300}
                   height={600}
