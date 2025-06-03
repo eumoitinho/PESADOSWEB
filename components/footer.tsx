@@ -16,10 +16,7 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Truck className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">Pesados Web</span>
+              <Image src="/images/logo-escrito.png" alt="Pesados Web" width={150} height={40} className="h-8 w-auto" />
             </div>
             <p className="text-gray-400 mb-4">
               A maior plataforma do Brasil para compra e venda de veículos pesados, tratores e implementos agrícolas.
@@ -125,12 +122,12 @@ export function Footer() {
               <p className="text-sm text-gray-400 mb-2">Baixe nosso app:</p>
               <div className="flex space-x-2">
                 <img
-                  src="/placeholder.svg?height=40&width=120"
+                  src="/apple.png"
                   alt="App Store"
                   className="h-10 hover:opacity-80 transition-opacity cursor-pointer"
                 />
                 <img
-                  src="/placeholder.svg?height=40&width=120"
+                  src="/playstore.svg"
                   alt="Google Play"
                   className="h-10 hover:opacity-80 transition-opacity cursor-pointer"
                 />
