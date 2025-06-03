@@ -56,7 +56,7 @@ export function HeroSection() {
               asChild
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-green-500 hover:text-white px-8 py-4 text-lg rounded-xl transition-all duration-300 hover:scale-105"
+              className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 text-lg rounded-xl transition-all duration-300 hover:scale-105"
             >
               <Link href="/comprar">
                 <Search className="mr-2 h-5 w-5" />
