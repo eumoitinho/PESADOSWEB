@@ -16,7 +16,7 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Image src="/images/logo-escrito.png" alt="Pesados Web" width={150} height={40} className="h-8 w-auto" />
+              <img src="/images/logo-escrito.png" alt="Pesados Web" width={150} height={40} className="h-8 w-auto" />
             </div>
             <p className="text-gray-400 mb-4">
               A maior plataforma do Brasil para compra e venda de veículos pesados, tratores e implementos agrícolas.
